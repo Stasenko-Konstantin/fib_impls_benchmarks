@@ -1,3 +1,6 @@
+#! Автор кода: https://m.habr.com/ru/users/Doublesharp/
+# Из его статьи про рекурсию в питоне я и взял это
+
 import time
 
 start_time = time.perf_counter()
@@ -11,6 +14,7 @@ def main():
             x1, x2 = x2, x3
             return x3
         return get_next
+    
     def fib_closure(n):
         f = fib()
         for i in range(2, n+1):
