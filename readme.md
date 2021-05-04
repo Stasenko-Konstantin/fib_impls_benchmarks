@@ -15,9 +15,9 @@ One article on [Habr](https://habr.com/ru/all/) made me do these benchmarks. Its
 
 Approximate results:
 
-Naive recursion (rec.py)     - 5.85 ms
-Closures (closure.py)        - 2.30 ms
-Tail recursion (tail_tec.py) - 2.71 ms
+Naive recursion (rec.py)     - 5.85 ms              
+Closures (closure.py)        - 2.30 ms                 
+Tail recursion (tail_tec.py) - 2.71 ms                
 Memoization (memo.py)        - 1.78 ms
 
 As a result it turns out that tail recursion is almost not inferior in speed to the method of the author of the article and at the same time is more concise and memoization is simpler and faster than all other options while only slightly yielding from simplicity to naive recursion
