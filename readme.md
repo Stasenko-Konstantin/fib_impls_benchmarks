@@ -11,4 +11,4 @@
 
 ----------
 
-One article on Habr[https://habr.com/ru/all/] made me do these benchmarks. Its author compared naive recursion and closures, it was strange, and I wanted to check everything myself, adding a couple of new options.
+One article on [Habr](https://habr.com/ru/all/) made me do these benchmarks. Its author compared naive recursion and closures, it was strange, and I wanted to check everything myself, adding a couple of new options.
